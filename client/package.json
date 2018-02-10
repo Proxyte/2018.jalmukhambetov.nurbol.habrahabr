@@ -8,9 +8,10 @@
     "gulp_less": "gulp less",
     "gulp_pug": "gulp pug",
     "gulp_ser": "gulp ser",
-    "gulp_par": "gulp par"
+    "gulp_par": "gulp par",
+    "gulp_start" : "gulp start"
 },
-  "author": "",
+  "author": "ььтоь ",
   "license": "ISC",
   "dependencies": {
     "@angular/animations": "4.4.3",
