@@ -83,21 +83,35 @@ gulp.task('webpack', function (callback) {
     });
 });
 
-gulp.task("build", xgulp.series(
+gulp.task("build", gulp.series(
     'clean', function(callback){
         isWatch = false;
         callback();
     }, 'webpack', 'assets'
 ));
 
+gulp.task('copy', function () {
+    gulp.src([
+        "front/iconfont/**/*.*"
+    ]).pipe(gulp.dest(path.resolve(outDir(), 'iconfont')));
+    gulp.src([
+        "node_modules/zone.js/dist/zone.min.js",
+        "node_modules/core-js/client/shim.min.js"
+    ]).pipe(gulp.dest(path.resolve(outDir(), 'js')));
+    return gulp.src([
+        "node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
+        "node_modules/bootstrap/dist/css/bootstrap.min.css"
+    ]).pipe(gulp.dest(path.resolve(outDir(), 'css')));
+});
+
 gulp.task('server', function(back) {
-    browserSync.init({server: path.resolve('build', 'public')});
+    browserSync.init({server: path.resolve('build', 'public','blog')});
     browserSync.watch('build/public/**/*.*').on('change', browserSync.reload);
     back();
 });
 
 gulp.task('start', gulp.series(
-    'clean', 'assets', function (callback) {
+    'clean', 'assets','copy', function (callback) {
         isWatch = true;
         callback();
     }, 'webpack', 'server',
