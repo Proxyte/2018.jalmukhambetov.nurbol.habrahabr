@@ -19,11 +19,11 @@ function outDir(){
 }
 
 gulp.task('less',function(){
-   return gulp.src('front/less/*.less').pipe(less()).pipe(gulp.dest(outDir()));
+   return gulp.src('front/less/main.less').pipe(less()).pipe(gulp.dest(path.resolve(outDir(), 'css')));
 });
 
 gulp.task('pug',function(){
-    return gulp.src('front/pug/*.pug').pipe(pug()).pipe(gulp.dest(outDir()));
+    return gulp.src('front/pug/index.pug').pipe(pug({pretty:true})).pipe(gulp.dest(outDir()));
 });
 
 gulp.task('assets',gulp.parallel('less','pug'));
@@ -105,7 +105,7 @@ gulp.task('copy', function () {
 });
 
 gulp.task('server', function(back) {
-    browserSync.init({server: path.resolve('build', 'public','blog')});
+    browserSync.init({server: path.resolve('build', 'public','nurbol_blog')});
     browserSync.watch('build/public/**/*.*').on('change', browserSync.reload);
     back();
 });
@@ -122,7 +122,7 @@ gulp.task('start', gulp.series(
 ));
 
 // 1st task
-gulp.task('ser',gulp.series('clean'));
+// gulp.task('ser',gulp.series('clean'));
 // gulp.task('ser',gulp.series('pug'));
 // gulp.task('ser',gulp.series('clean','less','pug'));
 
@@ -130,4 +130,4 @@ gulp.task('ser',gulp.series('clean'));
 // gulp.task('par',gulp.series(gulp.parallel('less','pug')));
 
 //3rd task
-gulp.task('par',gulp.series('clean',gulp.parallel('less','pug')));
+// gulp.task('par',gulp.series('clean',gulp.parallel('less','pug')));

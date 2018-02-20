@@ -20,6 +20,8 @@ subprojects{
 	dependencies{
 
 	}
+}
+
 	sourceSets{
 		main{
 			java.srcDirs = ["src/main/java"]
@@ -32,4 +34,3 @@ subprojects{
 			output.resourcesDir = 'build/test/main'
 		}
 	}
-}
