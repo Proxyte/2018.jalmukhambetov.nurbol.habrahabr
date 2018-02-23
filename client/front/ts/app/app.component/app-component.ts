@@ -4,7 +4,12 @@ import "rxjs/add/operator/toPromise";
 
 @Component({
     selector:"blog_app",
-    template:"<h1>result : {{text}}</h1>"
+    template:"" +
+    "<h1>result : {{text}}</h1>" +
+    "<input type='text' placeholder = 'Enter your login' value='login'>"+
+    "<h2>Password</h2>"+
+    "<input type='password' placeholder='Enter your password' value = 'pass'>"+
+    "<button>Click to login</button>"
 })
 
 export class AppComponent implements OnInit{
