@@ -101,7 +101,7 @@ gulp.task('copy', function () {
     return gulp.src([
         "node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
         "node_modules/bootstrap/dist/css/bootstrap.min.css"
-    ]).pipe(gulp.dest(path.resolve(outDir(), 'css')));
+    ]).pipe(gulp.dest(path.resolve(outDir(), 'css')))
 });
 
 gulp.task('server', function(back) {

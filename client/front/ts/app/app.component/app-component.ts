@@ -2,14 +2,25 @@ import {Component, OnInit} from "@angular/core"
 import {HttpService} from "../../provider/HttpService";
 import "rxjs/add/operator/toPromise";
 
+
 @Component({
     selector:"blog_app",
-    template:"" +
-    "<h1>result : {{text}}</h1>" +
-    "<input type='text' placeholder = 'Enter your login' value='login'>"+
-    "<h2>Password</h2>"+
-    "<input type='password' placeholder='Enter your password' value = 'pass'>"+
-    "<button>Click to login</button>"
+    template:
+    '<div class="container">\n' +
+    '    <div class="form-group">\n' +
+    '        <label for="login">Login:</label>\n' +
+    '        <input type="text" class="form-control" id="login">\n' +
+    '    </div>\n' +
+    '    <div class="form-group">\n' +
+    '        <label for="password">Password:</label>\n' +
+    '        <input type="password" class="form-control" id="password">\n' +
+    '    </div>\n' +
+    '    <div class="form-check">\n' +
+    '        <input type="checkbox" class="form-check-input" id="rememberMeCheck">\n' +
+    '        <label class="form-check-label" for="rememberMeCheck">Remember Me</label>\n' +
+    '    </div>\n' +
+    '    <input type="submit" class="btn btn-primary" value="Login">\n' +
+    '</div>'
 })
 
 export class AppComponent implements OnInit{

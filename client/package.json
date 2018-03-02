@@ -9,8 +9,8 @@
     "gulp_pug": "gulp pug",
     "gulp_ser": "gulp ser",
     "gulp_par": "gulp par",
-    "gulp_start" : "gulp start"
-},
+    "gulp_start": "gulp start"
+  },
   "author": "ььтоь ",
   "license": "ISC",
   "dependencies": {

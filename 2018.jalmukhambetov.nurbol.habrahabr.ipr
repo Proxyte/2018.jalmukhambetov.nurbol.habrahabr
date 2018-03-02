@@ -41,6 +41,7 @@
             <option value="$PROJECT_DIR$/stand" />
           </set>
         </option>
+        <option name="useAutoImport" value="true" />
       </GradleProjectSettings>
     </option>
   </component>
@@ -137,6 +138,33 @@
       <JAVADOC />
       <SOURCES />
     </library>
+    <library name="Gradle: com.metapossum:metapossum-scanner:1.0.1">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.metapossum/metapossum-scanner/1.0.1/9be23b8e5e83de9d82298d1682b0687323196343/metapossum-scanner-1.0.1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.metapossum/metapossum-scanner/1.0.1/1b556fc26c4ac18dbf1ad74931d3533eace7d32/metapossum-scanner-1.0.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: commons-io:commons-io:2.3">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.3/cd8d6ffc833cc63c30d712a180f4663d8f55799b/commons-io-2.3.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.3/ba0ce5e28373e2a21f71395e711b961563ff619d/commons-io-2.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: commons-lang:commons-lang:2.6">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-lang/commons-lang/2.6/ce1edb914c94ebc388f086c6827e8bdeec71ac2/commons-lang-2.6.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-lang/commons-lang/2.6/67313d715fbf0ea4fd0bdb69217fb77f807a8ce5/commons-lang-2.6-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Gradle: javax.servlet:javax.servlet-api:3.1.0">
       <CLASSES>
         <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.servlet/javax.servlet-api/3.1.0/3cd63d075497751784b2fa84be59432f4905bf7c/javax.servlet-api-3.1.0.jar!/" />
@@ -144,6 +172,15 @@
       <JAVADOC />
       <SOURCES>
         <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.servlet/javax.servlet-api/3.1.0/ab3976d4574c48d22dc1abf6a9e8bd0fdf928223/javax.servlet-api-3.1.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: kz.greetgo.depinject:greetgo.depinject.gen:2.0.0">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/kz.greetgo.depinject/greetgo.depinject.gen/2.0.0/534a9a7c76f4d1ac892b7742f8c674e0a5df2864/greetgo.depinject.gen-2.0.0.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/kz.greetgo.depinject/greetgo.depinject.gen/2.0.0/23a2aac194354b2f1a769f8909c04861a8de5e41/greetgo.depinject.gen-2.0.0-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Gradle: kz.greetgo.depinject:greetgo.depinject:2.0.0">
@@ -171,6 +208,24 @@
       <JAVADOC />
       <SOURCES>
         <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/kz.greetgo.mvc/greetgo.mvc/2.1.0/3b3b48e06ccd5e3de719f8ded0cbe0aea2879263/greetgo.mvc-2.1.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: kz.greetgo:greetgo.class_scanner:2.0.0">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/kz.greetgo/greetgo.class_scanner/2.0.0/3963768fee2afe11fbeeebb0d2dcc1ef4f6cf20a/greetgo.class_scanner-2.0.0.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/kz.greetgo/greetgo.class_scanner/2.0.0/ceeb8509fc5a225e448826aacc47d14d1861d144/greetgo.class_scanner-2.0.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: kz.greetgo:greetgo.java_compiler:2.0.0">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/kz.greetgo/greetgo.java_compiler/2.0.0/61a80f5c4fff19f07456169223d347b6ca736dfa/greetgo.java_compiler-2.0.0.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/kz.greetgo/greetgo.java_compiler/2.0.0/a836963c25878f37d82d0dc1b628d50a6d30ad69/greetgo.java_compiler-2.0.0-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Gradle: kz.greetgo:greetgo.util:2.0.0">
