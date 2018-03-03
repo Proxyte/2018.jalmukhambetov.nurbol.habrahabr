@@ -1,6 +1,7 @@
 package kz.sdu.project.beans;
 
 import kz.greetgo.depinject.core.Bean;
+import kz.greetgo.mvc.interfaces.TunnelExecutorGetter;
 import kz.sdu.project.util.WebAppContextRegistration;
 import org.eclipse.jetty.servlet.FilterHolder;
 import org.eclipse.jetty.webapp.WebAppContext;

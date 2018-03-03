@@ -2,25 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68ad2a91-8505-4385-bc6e-d34e1ddc37bb" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/java/kz/sdu/project/controller/register/TestRegister.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/java/kz/sdu/project/controller/register_impl/BeanConfigForRegisterImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/java/kz/sdu/project/controller/register_impl/TestRegisterImpl.java" />
       <change beforePath="$PROJECT_DIR$/2018.jalmukhambetov.nurbol.habrahabr.iws" afterPath="$PROJECT_DIR$/2018.jalmukhambetov.nurbol.habrahabr.iws" />
-      <change beforePath="$PROJECT_DIR$/client/build/public/nurbol_blog/index.html" afterPath="$PROJECT_DIR$/client/build/public/nurbol_blog/index.html" />
-      <change beforePath="$PROJECT_DIR$/client/build/public/nurbol_blog/js/main.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/client/front/pug/index.pug" afterPath="$PROJECT_DIR$/client/front/pug/index.pug" />
       <change beforePath="$PROJECT_DIR$/client/front/ts/app/app.component/app-component.ts" afterPath="$PROJECT_DIR$/client/front/ts/app/app.component/app-component.ts" />
-      <change beforePath="$PROJECT_DIR$/controller/out/production/classes/kz/sdu/project/controller/controller/TestController.class" afterPath="$PROJECT_DIR$/controller/out/production/classes/kz/sdu/project/controller/controller/TestController.class" />
-      <change beforePath="$PROJECT_DIR$/controller/out/production/classes/kz/sdu/project/controller/util/Controller.class" afterPath="$PROJECT_DIR$/controller/out/production/classes/kz/sdu/project/controller/util/Controller.class" />
-      <change beforePath="$PROJECT_DIR$/controller/src/main/java/kz/sdu/project/controller/controller/TestController.java" afterPath="$PROJECT_DIR$/controller/src/main/java/kz/sdu/project/controller/controller/TestController.java" />
-      <change beforePath="$PROJECT_DIR$/controller/src/main/java/kz/sdu/project/controller/util/Controller.java" afterPath="$PROJECT_DIR$/controller/src/main/java/kz/sdu/project/controller/util/Controller.java" />
-      <change beforePath="$PROJECT_DIR$/stand/out/production/classes/kz/sdu/project/beans/BeanConfigForPackageBeans.class" afterPath="$PROJECT_DIR$/stand/out/production/classes/kz/sdu/project/beans/BeanConfigForPackageBeans.class" />
-      <change beforePath="$PROJECT_DIR$/stand/out/production/classes/kz/sdu/project/beans/JettyControllerRegistration.class" afterPath="$PROJECT_DIR$/stand/out/production/classes/kz/sdu/project/beans/JettyControllerRegistration.class" />
-      <change beforePath="$PROJECT_DIR$/stand/src/main/java/kz/sdu/project/bean_containers/BeanConfigForStandBeanContainer.java" afterPath="$PROJECT_DIR$/stand/src/main/java/kz/sdu/project/bean_containers/BeanConfigForStandBeanContainer.java" />
-      <change beforePath="$PROJECT_DIR$/stand/src/main/java/kz/sdu/project/beans/BeanConfigForPackageBeans.java" afterPath="$PROJECT_DIR$/stand/src/main/java/kz/sdu/project/beans/BeanConfigForPackageBeans.java" />
-      <change beforePath="$PROJECT_DIR$/stand/src/main/java/kz/sdu/project/beans/JettyControllerRegistration.java" afterPath="$PROJECT_DIR$/stand/src/main/java/kz/sdu/project/beans/JettyControllerRegistration.java" />
-      <change beforePath="$PROJECT_DIR$/standbuild/src_bean_container/kz/sdu/project/bean_containers/StandBeanContainerAutomaticallyGeneratedImplementation.class" afterPath="$PROJECT_DIR$/standbuild/src_bean_container/kz/sdu/project/bean_containers/StandBeanContainerAutomaticallyGeneratedImplementation.class" />
-      <change beforePath="$PROJECT_DIR$/standbuild/src_bean_container/kz/sdu/project/bean_containers/StandBeanContainerAutomaticallyGeneratedImplementation.java" afterPath="$PROJECT_DIR$/standbuild/src_bean_container/kz/sdu/project/bean_containers/StandBeanContainerAutomaticallyGeneratedImplementation.java" />
+      <change beforePath="$PROJECT_DIR$/stand/src/main/java/kz/sdu/project/beans/Utf8FilterRegistration.java" afterPath="$PROJECT_DIR$/stand/src/main/java/kz/sdu/project/beans/Utf8FilterRegistration.java" />
     </list>
     <ignored path="$PROJECT_DIR$/controller/.gradle/" />
     <ignored path="$PROJECT_DIR$/controller/build/" />
@@ -117,16 +101,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BeanConfigForStandBeanContainer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stand/src/main/java/kz/sdu/project/bean_containers/BeanConfigForStandBeanContainer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="10" column="23" lean-forward="false" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="TestController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controller/src/main/java/kz/sdu/project/controller/controller/TestController.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -151,6 +125,58 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="StanBlogViews.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stand/src/main/java/kz/sdu/project/beans/StanBlogViews.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="104">
+              <caret line="5" column="5" lean-forward="false" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Utf8FilterRegistration.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stand/src/main/java/kz/sdu/project/beans/Utf8FilterRegistration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="182">
+              <caret line="41" column="5" lean-forward="false" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestRegister.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controller/src/main/java/kz/sdu/project/controller/register/TestRegister.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="130">
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BlogView.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controller/src/main/java/kz/sdu/project/controller/util/BlogView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="87">
+              <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Controller.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controller/src/main/java/kz/sdu/project/controller/util/Controller.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="104">
+              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="BeanConfigForRegisterImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controller/src/main/java/kz/sdu/project/controller/register_impl/BeanConfigForRegisterImpl.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -163,61 +189,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestRegister.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/controller/src/main/java/kz/sdu/project/controller/register/TestRegister.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="app-component.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/front/ts/app/app.component/app-component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="508">
-              <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+            <state relative-caret-position="154">
+              <caret line="31" column="42" lean-forward="false" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StandLauncher.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="StandLauncher.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/stand/src/main/java/kz/sdu/project/launcher/StandLauncher.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="312">
               <caret line="15" column="25" lean-forward="false" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StandServer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stand/src/main/java/kz/sdu/project/beans/StandServer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BeanConfigForPackageBeans.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stand/src/main/java/kz/sdu/project/beans/BeanConfigForPackageBeans.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Controller.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controller/src/main/java/kz/sdu/project/controller/util/Controller.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="52">
-              <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -1081,7 +1067,6 @@
         <option value="$PROJECT_DIR$/stand/src/main/java/kz/sdu/project/util/WebAppContextRegistration.java" />
         <option value="$PROJECT_DIR$/stand/src/main/java/kz/sdu/project/beans/StandServer.java" />
         <option value="$PROJECT_DIR$/stand/src/main/java/kz/sdu/project/launcher/StandLauncher.java" />
-        <option value="$PROJECT_DIR$/stand/src/main/java/kz/sdu/project/beans/Utf8FilterRegistration.java" />
         <option value="$PROJECT_DIR$/stand/src/main/java/kz/sdu/project/beans/CrossOriginFilterRegistration.java" />
         <option value="$PROJECT_DIR$/stand/build.gradle" />
         <option value="$PROJECT_DIR$/controller/src/main/java/kz/sdu/project/controller/errors/RestError.java" />
@@ -1092,7 +1077,6 @@
         <option value="$PROJECT_DIR$/controller/src/main/java/kz/sdu/project/controller/controller/BeanConfigForPackageController.java" />
         <option value="$PROJECT_DIR$/stand/src/main/java/kz/sdu/project/beans/StanBlogViews.java" />
         <option value="$PROJECT_DIR$/controller/src/main/java/kz/sdu/project/controller/util/Controller.java" />
-        <option value="$PROJECT_DIR$/client/front/ts/app/app.component/app-component.ts" />
         <option value="$PROJECT_DIR$/stand/src/main/java/kz/sdu/project/beans/BeanConfigForPackageBeans.java" />
         <option value="$PROJECT_DIR$/stand/src/main/java/kz/sdu/project/beans/JettyControllerRegistration.java" />
         <option value="$PROJECT_DIR$/client/front/pug/index.pug" />
@@ -1101,6 +1085,8 @@
         <option value="$PROJECT_DIR$/stand/src/main/java/kz/sdu/project/bean_containers/BeanConfigForStandBeanContainer.java" />
         <option value="$PROJECT_DIR$/controller/src/main/java/kz/sdu/project/controller/register_impl/TestRegisterImpl.java" />
         <option value="$PROJECT_DIR$/controller/src/main/java/kz/sdu/project/controller/controller/TestController.java" />
+        <option value="$PROJECT_DIR$/client/front/ts/app/app.component/app-component.ts" />
+        <option value="$PROJECT_DIR$/stand/src/main/java/kz/sdu/project/beans/Utf8FilterRegistration.java" />
       </list>
     </option>
   </component>
@@ -1517,12 +1503,12 @@
       <workItem from="1519372247215" duration="2061000" />
       <workItem from="1519976848640" duration="4677000" />
       <workItem from="1519982372047" duration="9262000" />
-      <workItem from="1520064792414" duration="9289000" />
+      <workItem from="1520064792414" duration="9691000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56402000" />
+    <option name="totallyTimeSpent" value="56804000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1549,7 +1535,7 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1810,14 +1796,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controller/src/main/java/kz/sdu/project/controller/util/BlogView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/stand/src/main/java/kz/sdu/project/bean_containers/StandBeanContainer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
@@ -1853,45 +1831,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stand/src/main/java/kz/sdu/project/beans/StanBlogViews.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="5" column="5" lean-forward="false" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stand/src/main/java/kz/sdu/project/beans/Utf8FilterRegistration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/stand/src/main/java/kz/sdu/project/beans/CrossOriginFilterRegistration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="341">
           <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/src/main/java/kz/sdu/project/controller/util/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/src/main/java/kz/sdu/project/controller/register_impl/BeanConfigForRegisterImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="7" column="30" lean-forward="false" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1919,19 +1863,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stand/src/main/java/kz/sdu/project/launcher/StandLauncher.java">
+    <entry file="file://$PROJECT_DIR$/controller/src/main/java/kz/sdu/project/controller/controller/TestController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="15" column="25" lean-forward="false" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+        <state relative-caret-position="336">
+          <caret line="19" column="5" lean-forward="false" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/front/ts/app/app.component/app-component.ts">
+    <entry file="file://$PROJECT_DIR$/controller/src/main/java/kz/sdu/project/controller/register/TestRegister.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
-          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+        <state relative-caret-position="130">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/src/main/java/kz/sdu/project/controller/util/BlogView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/src/main/java/kz/sdu/project/controller/util/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/src/main/java/kz/sdu/project/controller/register_impl/BeanConfigForRegisterImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" column="30" lean-forward="false" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1947,18 +1917,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controller/src/main/java/kz/sdu/project/controller/controller/TestController.java">
+    <entry file="file://$PROJECT_DIR$/stand/src/main/java/kz/sdu/project/beans/StanBlogViews.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="19" column="5" lean-forward="false" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        <state relative-caret-position="104">
+          <caret line="5" column="5" lean-forward="false" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controller/src/main/java/kz/sdu/project/controller/register/TestRegister.java">
+    <entry file="file://$PROJECT_DIR$/client/front/ts/app/app.component/app-component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state relative-caret-position="154">
+          <caret line="31" column="42" lean-forward="false" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stand/src/main/java/kz/sdu/project/beans/Utf8FilterRegistration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="41" column="5" lean-forward="false" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stand/src/main/java/kz/sdu/project/launcher/StandLauncher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="15" column="25" lean-forward="false" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
           <folding />
         </state>
       </provider>

@@ -29,7 +29,7 @@ export class AppComponent implements OnInit{
     ngOnInit():void { //doing smth before operation
         this.httpService.get("/getMainText").toPromise().then(
             result => {
-                this.text = result.json().text;
+                this.text = result.json();
             },
             error=>{
                 this.text = "something is gone wrong!!!";
