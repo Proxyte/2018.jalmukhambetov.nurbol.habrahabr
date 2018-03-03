@@ -5,22 +5,22 @@ import "rxjs/add/operator/toPromise";
 
 @Component({
     selector:"blog_app",
-    template:
-    '<div class="container">\n' +
-    '    <div class="form-group">\n' +
-    '        <label for="login">Login:</label>\n' +
-    '        <input type="text" class="form-control" id="login">\n' +
-    '    </div>\n' +
-    '    <div class="form-group">\n' +
-    '        <label for="password">Password:</label>\n' +
-    '        <input type="password" class="form-control" id="password">\n' +
-    '    </div>\n' +
-    '    <div class="form-check">\n' +
-    '        <input type="checkbox" class="form-check-input" id="rememberMeCheck">\n' +
-    '        <label class="form-check-label" for="rememberMeCheck">Remember Me</label>\n' +
-    '    </div>\n' +
-    '    <input type="submit" class="btn btn-primary" value="Login">\n' +
-    '</div>'
+    template:"<h1>{{text}}</h1>"
+    // '<div class="container">\n' +
+    // '    <div class="form-group">\n' +
+    // '        <label for="login">Login:</label>\n' +
+    // '        <input type="text" class="form-control" id="login">\n' +
+    // '    </div>\n' +
+    // '    <div class="form-group">\n' +
+    // '        <label for="password">Password:</label>\n' +
+    // '        <input type="password" class="form-control" id="password">\n' +
+    // '    </div>\n' +
+    // '    <div class="form-check">\n' +
+    // '        <input type="checkbox" class="form-check-input" id="rememberMeCheck">\n' +
+    // '        <label class="form-check-label" for="rememberMeCheck">Remember Me</label>\n' +
+    // '    </div>\n' +
+    // '    <input type="submit" class="btn btn-primary" value="Login">\n' +
+    // '</div>'
 })
 
 export class AppComponent implements OnInit{
