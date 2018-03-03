@@ -24,6 +24,7 @@ public class JettyControllerRegistration extends JettyWarServlet implements WebA
     }
 
     public BeanGetter<Views> view;
+
     @Override
     protected Views getViews() {
         return view.get();
