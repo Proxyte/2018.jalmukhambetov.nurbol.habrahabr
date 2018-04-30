@@ -6,6 +6,8 @@ allprojects{
 	sourceCompatibility = 1.8
 	targetCompatibility = 1.8
 
+	group = "kz.sdu.project"
+
 	compileJava.options.debugOptions.debugLevel="source,lines,vars"
 	compileJava.options.encoding = "UTF-8"
 	compileTestJava.options.debugOptions.debugLevel="source,lines,vars"
@@ -13,6 +15,14 @@ allprojects{
 }
 
 subprojects{
+	ext.greetgoMvcVersion = "2.1.0"
+	ext.greetgoDepInjectVersion = "2.0.0"
+	ext.guavaVersion = "12.0"
+	ext.greetgoConfVersion  = "0.1.5"
+	ext.greetgoDbVersion = "2.0.0"
+	ext.log4g = "1.7.21"
+	ext.greetgoJettyVersion = "2.1.0"
+
 	repositories{
 		mavenLocal()
 		mavenCentral()

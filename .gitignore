@@ -4,4 +4,5 @@ client/node_modules
 *.ipr
 *.gradle
 /.idea
+/apache-tomcat-8.0.28
 /build

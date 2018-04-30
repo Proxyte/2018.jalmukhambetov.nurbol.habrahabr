@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/" debug="false">
+
+  <appender name="TEST_LOG" class="org.apache.log4j.RollingFileAppender">
+    <param name="File" value="${user.home}/blog.d/logs/asd.log"/>
+    <param name="Threshold" value="INFO"/>
+    <param name="Append" value="true"/>
+    <param name="MaxFileSize" value="100MB"/>
+    <param name="MaxBackupIndex" value="100"/>
+
+    <layout class="kz.greetgo.blog.controller.logging.MyLog4jLayout">
+      <param name="LoggerNameCut" value="0"/>
+    </layout>
+  </appender>
+
+  <category name="kz.greetgo.blog.register">
+    <appender-ref ref="TEST_LOG"/>
+  </category>
+
+</log4j:configuration>
